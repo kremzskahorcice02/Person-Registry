@@ -1,6 +1,5 @@
 package org.example;
 
-import org.example.models.Person;
 import org.example.models.Registry;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,7 +9,6 @@ import java.util.Scanner;
 
 @SpringBootApplication
 public class Main {
-
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
 
